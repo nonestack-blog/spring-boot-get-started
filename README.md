@@ -1,3 +1,5 @@
+![display](https://repository-images.githubusercontent.com/704718611/8fc94bf1-c498-4517-b014-3193e987b92d)
+
 Spring Boot is a popular framework that simplifies and accelerate the process of developing a java based application  
 
 ## What You Will build
@@ -109,7 +111,7 @@ public class GreetingControllerTest {
 Congratulations 🎉 ! You've created quick Spring Boot Web Application to get started.
 
 ## Github
-The tutorial can be found here on [GitHub](https://github.com/nonestack-blog/spring-data-get-started) 👋
+The tutorial can be found here on [GitHub](https://github.com/nonestack-blog/spring-boot-get-started) 👋
 
 ## Blog
 
