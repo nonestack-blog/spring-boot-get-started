@@ -2,15 +2,15 @@
 
 Spring Boot is a popular framework that simplifies and accelerate the process of developing a java based application  
 
-## What You Will build
+## <a name="what-you-will-build" aria-label="what-you-will-build" id="what-you-will-build" href="#what-you-will-build"></a>What You Will build
 You will build a Spring Boot web application.
 
-## What You Need
+## <a name="what-you-need" aria-label="what-you-need" id="what-you-need" href="#what-you-need"></a>What You Need
 - A favorite text editor or IDE
 - JDK 1.8 or later
 - Gradle 4+ or Maven 3.2+
 
-## Setup Project With Spring Initializr
+## <a name="setup-project-with-spring-initializr" aria-label="setup-project-with-spring-initializr" id="setup-project-with-spring-initializr" href="#setup-project-with-spring-initializr"></a>Setup Project With Spring Initializr
 
 - Navigate to https://start.spring.io.
 
@@ -24,7 +24,7 @@ You will build a Spring Boot web application.
 
 Unzip the Downloaded Zip and open the Project using your favorite text editor or IDE
 
-## Application class
+## <a name="application-class" aria-label="application-class" id="application-class" href="#application-class"></a>Application class
 
 The main class for our application, serve as an entry point for our Spring boot application
 
@@ -45,7 +45,7 @@ The class is annotated with ```@SpringBootApplication``` which is a combination 
 
 ```SpringApplication.run()``` method to launch the spring boot application. once you lunch the app it will be running on port **8080**, you can set it under the ```application.properties```  ```server.port=8081```, This web application relies on **annotation-based** configuration, which means it's entirely **Java-based**, eliminating the need to manually configure the web application infrastructure. This approach allows you to **focus** more on the business logic
 
-## Web Application
+## <a name="web-application" aria-label="web-application" id="web-application" href="#web-application"></a>Web Application
 under the src package create the class ```GreetingController``` 
 
 ```java
@@ -64,12 +64,12 @@ public class GreetingController {
 - Spring Boot use a singleton servlet than it will delegate the request to the corresponded ```@Controller``` or ```@RestController```
 - ```@GetMapping``` maps the path ```/``` to the index() method. When call the endpoint ```http://localhost:8080/```, the method returns text. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.
 
-## Run the Application
+## <a name="run-the-application" aria-label="run-the-application" id="run-the-application" href="#run-the-application"></a>Run the Application
 To run the application, run the following command based on your project management 
 - Maven ```./mvnw spring-boot:run```
 - Gradle ```./gradlew bootRun```
 
-## Test
+## <a name="test" aria-label="test" id="test" href="#test"></a>Test
 
 Add the flowing test dependency to you ```pom.xml``` file
 ```xml
@@ -106,13 +106,13 @@ public class GreetingControllerTest {
 
 **MockMvc**, from Spring Test, allows you to send HTTP requests and check the results using builder classes. Use ```@AutoConfigureMockMvc``` and ```@SpringBootTest``` to inject a MockMvc instance. ```@SpringBootTest``` creates the full application context, while ```@WebMvcTest``` focuses on the web layers. Spring Boot automatically identifies the main application class, but you can override or narrow it down if needed.
 
-## Summary
+## <a name="summary" aria-label="summary" id="summary" href="#summary"></a>Summary
 
 Congratulations 🎉 ! You've created quick Spring Boot Web Application to get started.
 
-## Github
+## <a name="github" aria-label="github" id="github" href="#github"></a>Github
 The tutorial can be found here on [GitHub](https://github.com/nonestack-blog/spring-boot-get-started) 👋
 
-## Blog
+## <a name="blog" aria-label="blog" id="blog" href="#blog"></a>Blog
 
 Check new tutorials on [nonestack](https://www.nonestack.com) 👋
